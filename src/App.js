@@ -142,6 +142,7 @@ export default function App(){
 
 
     return (
+  <>
   <Canvas gl={{ antialias: false }} dpr={[1, 1.5]} onPointerMissed={() => (state.clicked = null)}>
     <Items />
   </Canvas>
@@ -153,6 +154,6 @@ export default function App(){
       <audio id="DiskD" autoPlay crossOrigin="anonymous" style={{ display: 'none' }}>
         <source id="DiskDSource" type="audio/mpeg" />
       </audio>
-
+   </>
     )
 }
