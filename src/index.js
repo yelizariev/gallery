@@ -9,7 +9,7 @@ function Overlay() {
     <div style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none', width: '100%', height: '100%' }}>
       <div style={{ position: 'absolute', bottom: 40, left: 40, fontSize: '13px' }}>banana.mydream42.com</div>
       <div style={{ position: 'absolute', top: 40, left: 40, fontSize: '13px' }}><a href="https://mydream42.com">*.mydream42.com</a></div>
-      <div style={{ position: 'absolute', bottom: 40, right: 40, fontSize: '13px' }}>https://tandemm.be/</div>
+      <div style={{ position: 'absolute', bottom: 40, right: 40, fontSize: '13px' }}>tandemm.be</div>
     </div>
   )
 }
