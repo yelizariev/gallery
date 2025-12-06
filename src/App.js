@@ -72,7 +72,7 @@ function Items({ w = 0.7, gap = 0.15 }) {
   )
 }
 
-export default function App(){
+export function App(){
   // 音频播放系统（随机起始位置 + 顺序播放）
   // ✨ Système audio (position aléatoire + lecture séquentielle)
   useEffect(() => {
