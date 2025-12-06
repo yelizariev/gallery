@@ -1,6 +1,5 @@
 import { createRoot } from 'react-dom/client'
 import { Suspense } from 'react'
-import { Logo } from '@pmndrs/branding'
 import './styles.css'
 import { App } from './App'
 
@@ -20,6 +19,5 @@ createRoot(document.getElementById('root')).render(
       <App />
     </Suspense>
     <Overlay />
-    <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} />
   </>
 )
