@@ -32,6 +32,7 @@
 	</noscript>
   <script>
    window.APP_CONFIG = {
+       Next: "{{ markdown.yaml.Next }}",
        Girls: [
            {% for url in markdown.IMAGES %}
            "{{ url }}"{% unless forloop.last %}, {% endunless %}
